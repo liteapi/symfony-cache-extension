@@ -1,0 +1,30 @@
+{
+    "name": "liteapi/symfony-cache-extension",
+    "description": "Symfony cache extension for LiteApi framework",
+    "type": "extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pjpawel",
+            "email": "pawel.jan.podgorski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Liteapi\\SymfonyCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LiteApi\\SymfonyCache\\Test\\": "test/"
+        }
+    },
+    
+    "require": {
+        "symfony/cache": "^6.3"
+    },
+    "require-dev": {
+        "liteapi/liteapi": "0.6.0-alpha",
+        "phpunit/phpunit": "^10.2"
+    }
+}
